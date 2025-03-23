@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin:0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .container{
+                width:50%;
+                height:50vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+            }
+            #bg{
+                width:250px;
+                height:250px;
+                margin-top:20px;
+            }
+            .text{
+                font-size:30px;
+                color:black;
+            }
+            #btn{
+                padding:10px;
+                font-size:20px;
+                border-radius:20px;
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <p class="text">cilck the below button to change the color</p>
+            <button onclick="change()" id="btn">click me</button>
+            <div id="bg"></div>
+        </div>
+        <script>
+            let bgarray=['red','blue','purple','yellowgreen','black','grey','aqua','cyan','pink','brown','azurw','burlywood'];
+            function change(){
+                let bgcolor=document.getElementById("bg")
+                let r=Math.ceil(Math.random() * bgarray.length);
+                bgcolor.style.backgroundColor=bgarray[r] ;
+            }
+
+        </script>
+    </body>
+</html>
