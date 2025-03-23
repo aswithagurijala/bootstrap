@@ -1,0 +1,163 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.de{
+    height:600px;
+}
+.de1{
+    height:90px;
+    width:90px;
+    border-radius: 60px;;
+}
+.container-fluids{
+    background-color: black;
+}
+.nav-link{
+    color:white;
+}
+.img1{
+    height:900px;
+    width:500px;
+}
+.container1{
+    background-color: antiquewhite;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer-container p {
+    font-size: 14px;
+  }
+  .social-media-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+
+  .social-icon {
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .social-icon:hover {
+    color: #f39c12;
+  }
+
+  /* Optional: Customize the icon colors to match your theme */
+  .social-icon i {
+    font-size: 30px;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer-container p {
+    font-size: 14px;
+  }
+
+  .social-media-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+  .social-icon {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .social-icon:hover {
+    color: #f39c12; /* Hover color */
+  }
+
+  .social-icon i {
+    font-size: 30px;
+  }
+  .b{
+    margin-left:800px;
+    
+  }
+  .f{
+   
+    color:wheat;
+
+  font-size:20px;
+  }
+  .n{
+    background-color: darkslategray;
+  }
+  #circle-progress {
+    width: 120px;  /* Smaller size of the circle */
+    height: 120px; /* Smaller size of the circle */
+    margin: 0 auto; /* Center the circle */
+}
+/* Change the color of navbar links to white */
+.navbar-nav .nav-link {
+    color: white !important;  /* !important ensures the style overrides other styles */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa;  /* Optional: Change color when hovering */
+}
+.container2{
+    background-color: cornsilk;
+}
+.g{
+    margin-left:600px;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+.custom-accordion-btn {
+  background: linear-gradient(135deg, #ff4081, #ff5e62);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 15px;
+}
+
+.custom-accordion-btn:focus {
+  box-shadow: none;
+}
+
+.custom-accordion-btn:not(.collapsed) {
+  background: linear-gradient(135deg, #ff5e62, #ff4081);
+  color: #fff;
+}
+
+/* Styling for Accordion Body */
+.custom-accordion-body {
+  background-color: #2e004f;
+  color: white;
+  font-size: 1.1rem;
+  padding: 15px;
+  border-radius: 5px;
+}
+.accordion {
+  background-color: #310f4f;
+  border-radius: 10px;
+  padding: 10px;
+}
+.carousel img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  margin: auto;
+}
