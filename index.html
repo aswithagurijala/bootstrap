@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography Animated Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <canvas id="backgroundCanvas"></canvas>
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <!-- Hero Section with Animated Text -->
+            <section class="hero">
+                <h1 id="animated-text">CREATIVE <span class="highlight">TYPOGRAPHY</span></h1>
+                <p class="subtext">Explore the magic of animations, typography, and interactive elements.</p>
+            </section>
+
+            <!-- Parallax Section with Smooth Scrolling -->
+            <section class="parallax">
+                    <div class="floating-shapes"></div>  <!-- Shapes will be added dynamically -->
+                    <div class="text-container">
+                        <h2 class="fade-in">Scroll Down</h2>
+                        <p class="fade-in">Experience smooth scrolling and dynamic effects.</p>
+                    </div>
+            </section>
+
+            <!-- Geometric Animations -->
+            <section class="geometric">
+                <div class="circle"></div>
+                <div class="triangle"></div>
+                <div class="square"></div>
+            </section>
+
+            <!-- Mockup Section -->
+            <section class="mockup">
+                <div class="mockup-box">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvUOIWCg7bydahbQb3mHP-qCTu86yyHDBAKhTsP3dhjlZaPpppcDs6Qox1UeQjSMaU74M&usqp=CAU" alt="Typography Mockup">
+                    <p class="mockup-text" style="translate: none; rotate: none; scale: none; transform: translate(0px, 20px); opacity: 0;">
+                        Beautifully designed text effects and layouts.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
